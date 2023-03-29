@@ -19,6 +19,18 @@ docker-compose up -d
 ```
 これで、Neo4jのインスタンスがDockerコンテナ内で実行されます。
 
+## Migration
+```zsh
+chmod +x run_migration.sh
+```
+migration用のシェルスクリプトを有効化します。
+
+```zsh
+./run_migration.sh
+```
+シェルを実行することでMigrationが行われます。
+
+
 ## Neo4jへの接続
 Neo4j Browserを使って、http://localhost:7474にアクセスします。デフォルトのユーザ名とパスワードは以下のとおりです。
 
